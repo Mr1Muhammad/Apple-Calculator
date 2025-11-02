@@ -16,7 +16,7 @@ body{
   display: grid;
   grid-template-columns: repeat(4, 55px);
   grid-gap: 5px;
-  margin-left: -225px;
+  margin-left: -100px;
   margin-top: 200px;
 }
 
@@ -62,4 +62,5 @@ button:active{
   font-size: 60px;
   text-align: right;
   direction: rtl;
+
 }

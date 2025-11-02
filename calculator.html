@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+  </head>
+  <body>
+    <img src="C:\Users\muham\OneDrive\Desktop\JSProMuhammad\lesson5\calculatorBuild\calculatorBackGround.webp"; class="image1";>
+    <div class="display_calculator"></div>
+    <div class="calculator">
+      <button onclick="appendNumber('1')">1</button>
+      <button onclick="appendNumber('2')">2</button>
+      <button onclick="appendNumber('3')">3</button>
+
+      <button onclick="appendOperator('+')" class="operand operandPlus">➕</button>
+      <button onclick="appendNumber('4')">4</button>
+      <button onclick="appendNumber('5')">5</button>
+      <button onclick="appendNumber('6')">6</button>
+
+      <button onclick="appendOperator('-')" class="operand operandMinus">➖</button>
+      <button onclick="appendNumber('7')">7</button>
+      <button onclick="appendNumber('8')">8</button>
+      <button onclick="appendNumber('9')">9</button>
+
+      <button onclick="appendOperator('*')" class="operand operandMultiply">✖️</button>
+      <button onclick="appendOperator('.')">•</button>
+      <button onclick="appendNumber('0')">0</button>
+
+      <button onclick="calculate()" class="equal_button operandEqual">🟰</button>
+
+      <button onclick="appendOperator('/')" class="operand operandDivide">➗</button>
+      <button onclick="deleteLast()" class="clear_button clear">⌫</button>
+
+
+    </div>
+
+    <script src="logicalPart.js"></script>
+  </body>
+</html>
